@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-Black.eot");
+    src: url("../fonts/productsans/ProductSans-Black.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-Black.woff2") format("woff2"), url("../fonts/ProductSans-Black.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-BlackItalic.eot");
+    src: url("../fonts/productsans/ProductSans-BlackItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-BlackItalic.woff2") format("woff2"),
+        url("../fonts/productsans/ProductSans-BlackItalic.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-Bold.eot");
+    src: url("../fonts/productsans/ProductSans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-Bold.woff2") format("woff2"), url("../fonts/ProductSans-Bold.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-BoldItalic.eot");
+    src: url("../fonts/productsans/ProductSans-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-BoldItalic.woff2") format("woff2"),
+        url("../fonts/productsans/ProductSans-BoldItalic.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-Light.eot");
+    src: url("../fonts/productsans/ProductSans-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-Light.woff2") format("woff2"), url("../fonts/ProductSans-Light.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-Italic.eot");
+    src: url("../fonts/productsans/ProductSans-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-Italic.woff2") format("woff2"), url("../fonts/ProductSans-Italic.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-LightItalic.eot");
+    src: url("../fonts/productsans/ProductSans-LightItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-LightItalic.woff2") format("woff2"),
+        url("../fonts/productsans/ProductSans-LightItalic.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-Medium.eot");
+    src: url("../fonts/productsans/ProductSans-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-Medium.woff2") format("woff2"), url("../fonts/ProductSans-Medium.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-Regular.eot");
+    src: url("../fonts/productsans/ProductSans-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-Regular.woff2") format("woff2"),
+        url("../fonts/productsans/ProductSans-Regular.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-MediumItalic.eot");
+    src: url("../fonts/productsans/ProductSans-MediumItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-MediumItalic.woff2") format("woff2"),
+        url("../fonts/productsans/ProductSans-MediumItalic.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-ThinItalic.eot");
+    src: url("../fonts/productsans/ProductSans-ThinItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-ThinItalic.woff2") format("woff2"),
+        url("../fonts/productsans/ProductSans-ThinItalic.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/productsans/ProductSans-Thin.eot");
+    src: url("../fonts/productsans/ProductSans-Thin.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/productsans/ProductSans-Thin.woff2") format("woff2"), url("../fonts/ProductSans-Thin.woff") format("woff"),
+        url("../fonts/productsans/ProductSans-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}

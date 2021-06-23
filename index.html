@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+<!--[if gte IE 9] <style type="text/css"> .gradient {filter: none;}</style><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Required meta tags for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Favicon and touch icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <meta name="misapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="R" />
+    <meta property="fb:admins" content="Facebook numeric ID" />
+    <!-- gmail verification -->
+    <meta name="google-site-verification" content="" />
+    <!-- Website title -->
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/fonts-import.css" />
+    <link rel="stylesheet" href="assets/css/nioicon.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" href="assets/css/percircle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- jQuery (necessary for jQuery plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <!-- Main Coding Start Here -->
+
+
+
+    
+    <!-- Markup for header -->
+    <header class="header">
+        <div class="container-fluid">
+            <nav class="navbar d-flex flex-row flex-nowrap justify-content-between align-items-center">
+                <button type="button" class="btnNavToggle btn border btn-sm  mr-2 d-block d-xl-none">
+                    <i class="ni ni-menu-left text-light"></i>
+                </button>
+                <a class="navbar-brand my-0 py-0" href="index.html">
+                    <img src="assets/img/projectopialogo.svg" class="img-fluid" />
+                </a>
+                <div class="navbar-collapse d-flex flex-row">
+                    <ul class="navbar-nav responsiveMenu mr-auto d-block d-xl-flex flex-row">
+                        <li class="nav-item mb-3 d-block d-xl-none">
+                            <button type="button" class="btnNavToggle border btn-sm btn mr-2">
+                                <i class="ni ni-cross text-light"></i>
+                            </button>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Dashboard<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Work</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Leads</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clients</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quotes</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Invoices
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teams</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul
+                        class="nav navbar-nav navbar-right rightNavbar flex-nowrap flex-row ml-auto justify-content-end">
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/massageicon.svg" alt="" class="img-fluid">
+                                <span class="count">4</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/notification.png" alt="" class="img-fluid">
+                                <span class="count">4</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/settingicon.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="headerProfile">
+                                <span>Rajat</span>
+                                <img src="assets/img/headerprofile.png" alt="" class="userImg img-fluid" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--/ Markup for header -->
+
+
+
+
+    <!-- Markup for notification-alert -->
+    <div class="notification-alert">
+        <div class="container-fluid">
+            <div class="alertContent">
+                <div class="alertContent-info">
+                    <div class="alertImg">
+                        <img src="assets/img/alerticon.svg" alt="" class="img-fluid" />
+                    </div>
+                    <div class="alert_info">
+                        <h3>You need to link your account to a Team Member</h3>
+                        <p>
+                            It would appear that the Wordpress Administrator account that you are logged in with is not
+                            related to a Team Member. In order for the plugin to work correctly, you need to add a Team
+                            Member that is linked to your WP User Account.
+                        </p>
+                    </div>
+                </div>
+                <div class="teamBtn ">
+                    <a href="#" class="btn btn-danger btn-danger-alert px-4">Create Linked Team Member</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ End notification-alert -->
+
+
+
+
+    <!-- Markup for dashboardWrapper -->
+    <div class="dashboardWrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <figure id="dashboardWrapperPanel-left">
+                        <div class="card ">
+                            <div class="card-header d-block d-md-flex ">
+                                <div class="card-header-info d-flex align-items-center">
+                                    <img src="assets/img/taskIcon.png" alt="" class="img-fluid mr-2" />
+                                    <h5 class="mb-0">Income By Month</h5>
+                                </div>
+                                <div class="card-header-btn mt-2 mt-md-0">
+                                    <div class="selectDropdown d-block d-sm-flex flex-wrap align-items-center">
+                                        <div class="dropdownInner padding-ls-small mr-3" data-prev-content="Year">
+                                            <select class="selectDropdown-init form-control">
+                                                <option value="1">2020</option>
+                                                <option value="2">2019</option>
+                                                <option value="3">2018</option>
+                                                <option value="4">2017</option>
+                                            </select>
+                                        </div>
+                                        <div class="dropdownInner padding-ls-medium mt-2 mt-sm-0"
+                                            data-prev-content="Show">
+                                            <select class="selectDropdown-init form-control">
+                                                <option value="1">All Invoices</option>
+                                                <option value="2">Last Month</option>
+                                                <option value="3">This Month</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-header d-block d-md-flex mt-5">
+                                <div class="card-header-info d-flex align-items-center">
+                                    <img src="assets/img/revenue.svg" alt="" class="img-fluid mr-2" />
+                                    <div class="content">
+                                        <h4 class="mb-0">$3615.25</h4>
+                                        <p>Total Revenue of This Month</p>
+                                    </div>
+                                </div>
+                                <div class="card-header-btn mt-3 mt-md-0">
+                                    <ul class="nav nav-tabs px-0" id="monthOfrevenue-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link active" data-toggle="tab" href="#ThisDay" role="tab"
+                                                aria-controls="home" aria-selected="true">
+                                                This Day
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" data-toggle="tab" href="#thisWeek" role="tab"
+                                                aria-controls="profile" aria-selected="false">
+                                                This Week
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" data-toggle="tab" href="#thisMonth" role="tab"
+                                                aria-controls="contact" aria-selected="false">
+                                                This Month
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body mt-4">
+                                <div class="tab-content" id="monthOfrevenue-tab-content">
+                                    <div class="tab-pane fade show active" id="ThisDay" role="tabpanel"
+                                        aria-labelledby="ThisDay">
+                                        <div id="bar-chart-1"></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="thisWeek" role="tabpanel" aria-labelledby="thisWeek">
+                                        <div id="bar-chart-2"></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="thisMonth" role="tabpanel"
+                                        aria-labelledby="thisMonth">
+                                        <div id="bar-chart-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header d-block d-md-flex">
+                                <div class="card-header-info d-flex align-items-center">
+                                    <img src="assets/img/taskIcon.png" alt="" class="img-fluid mr-2" />
+                                    <h5 class="mb-0">My Open Tasks (Assign or Watching)</h5>
+                                </div>
+                                <div class="card-header-btn mt-2 mt-md-0">
+                                    <a href="#" class="piaBtn">Add Task</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="cardNavTabWrapper d-block d-sm-flex">
+                                    <ul class="tabs">
+                                        <li class="tab-link current" data-tab="tab-1">In Process</li>
+                                        <li class="tab-link" data-tab="tab-2">Upcoming</li>
+                                    </ul>
+                                    <div class="searchWrapper mt-3 mt-sm-0">
+                                        <button class="searchBtn">
+                                            <img src="assets/img/searchicon.png" alt="" class="img-fluid" />
+                                        </button>
+                                        <input type="text" placeholder="Search Ticket . . ." class="inputSearch">
+                                    </div>
+                                </div>
+                                <div class="tabContentWrapper">
+                                    <div id="tab-1" class="customTab-content current">
+                                        <div class="table-responsive">
+                                            <ul class="open-tasks-lists table-responsive">
+                                                <li>
+                                                    <label class="checkContainer">
+                                                        <div class="check-content">
+                                                            <p class="mb-0">
+                                                                <span class="taskNumber">
+                                                                    Project Task 01
+                                                                </span>
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkMark"></span>
+                                                            </p>
+                                                            <p class="assign mb-0">Assign to Mark</p>
+                                                        </div>
+                                                    </label>
+                                                    <div class="updateBtnWrapper">
+                                                        <button class="upBtn btn-edit">
+                                                            <span class="ni ni-edit"></span>
+                                                        </button>
+                                                        <button class="upBtn deleteBtn btn-delete">
+                                                            <span class="ni ni-trash"></span>
+                                                        </button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label class="checkContainer">
+                                                        <div class="check-content">
+                                                            <p class="mb-0">
+                                                                <span class="taskNumber">
+                                                                    Project Task 02
+                                                                </span>
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkMark"></span>
+                                                            </p>
+                                                            <p class="assign mb-0">Assign to Mark</p>
+                                                        </div>
+                                                    </label>
+                                                    <div class="updateBtnWrapper">
+                                                        <button class="upBtn btn-edit">
+                                                            <span class="ni ni-edit"></span>
+                                                        </button>
+                                                        <button class="upBtn deleteBtn btn-delete">
+                                                            <span class="ni ni-trash"></span>
+                                                        </button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label class="checkContainer">
+                                                        <div class="check-content">
+                                                            <p class="mb-0">
+                                                                <span class="taskNumber">
+                                                                    Project Task 03
+                                                                </span>
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkMark"></span>
+                                                            </p>
+                                                            <p class="assign mb-0">Assign to Mark</p>
+                                                        </div>
+                                                    </label>
+                                                    <div class="updateBtnWrapper">
+                                                        <button class="upBtn btn-edit">
+                                                            <span class="ni ni-edit"></span>
+                                                        </button>
+                                                        <button class="upBtn deleteBtn btn-delete">
+                                                            <span class="ni ni-trash"></span>
+                                                        </button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label class="checkContainer">
+                                                        <div class="check-content">
+                                                            <p class="mb-0">
+                                                                <span class="taskNumber">
+                                                                    Project Task 04
+                                                                </span>
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkMark"></span>
+                                                            </p>
+                                                            <p class="assign mb-0">Assign to Mark</p>
+                                                        </div>
+                                                    </label>
+                                                    <div class="updateBtnWrapper">
+                                                        <button class="upBtn btn-edit">
+                                                            <span class="ni ni-edit"></span>
+                                                        </button>
+                                                        <button class="upBtn deleteBtn btn-delete">
+                                                            <span class="ni ni-trash"></span>
+                                                        </button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label class="checkContainer">
+                                                        <div class="check-content">
+                                                            <p class="mb-0">
+                                                                <span class="taskNumber">
+                                                                    Project Task 05
+                                                                </span>
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkMark"></span>
+                                                            </p>
+                                                            <p class="assign mb-0">Assign to Mark</p>
+                                                        </div>
+                                                    </label>
+                                                    <div class="updateBtnWrapper">
+                                                        <button class="upBtn btn-edit">
+                                                            <span class="ni ni-edit"></span>
+                                                        </button>
+                                                        <button class="upBtn deleteBtn btn-delete">
+                                                            <span class="ni ni-trash"></span>
+                                                        </button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label class="checkContainer">
+                                                        <div class="check-content">
+                                                            <p class="mb-0">
+                                                                <span class="taskNumber">
+                                                                    Project Task 06
+                                                                </span>
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkMark"></span>
+                                                            </p>
+                                                            <p class="assign mb-0">Assign to Mark</p>
+                                                        </div>
+                                                    </label>
+                                                    <div class="updateBtnWrapper">
+                                                        <button class="upBtn btn-edit">
+                                                            <span class="ni ni-edit"></span>
+                                                        </button>
+                                                        <button class="upBtn deleteBtn btn-delete">
+                                                            <span class="ni ni-trash"></span>
+                                                        </button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label class="checkContainer">
+                                                        <div class="check-content">
+                                                            <p class="mb-0">
+                                                                <span class="taskNumber">
+                                                                    Project Task 07
+                                                                </span>
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkMark"></span>
+                                                            </p>
+                                                            <p class="assign mb-0">Assign to Mark</p>
+                                                        </div>
+                                                    </label>
+                                                    <div class="updateBtnWrapper">
+                                                        <button class="upBtn btn-edit">
+                                                            <span class="ni ni-edit"></span>
+                                                        </button>
+                                                        <button class="upBtn deleteBtn btn-delete">
+                                                            <span class="ni ni-trash"></span>
+                                                        </button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label class="checkContainer">
+                                                        <div class="check-content">
+                                                            <p class="mb-0">
+                                                                <span class="taskNumber">
+                                                                    Project Task 08
+                                                                </span>
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkMark"></span>
+                                                            </p>
+                                                            <p class="assign mb-0">Assign to Mark</p>
+                                                        </div>
+                                                    </label>
+                                                    <div class="updateBtnWrapper">
+                                                        <button class="upBtn btn-edit">
+                                                            <span class="ni ni-edit"></span>
+                                                        </button>
+                                                        <button class="upBtn deleteBtn btn-delete">
+                                                            <span class="ni ni-trash"></span>
+                                                        </button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="seaAllTaskWrapper">
+                                            <a href="#" class="seaAllBtn">See All Task</a>
+                                        </div>
+                                    </div>
+                                    <div id="tab-2" class="customTab-content">
+                                        <ul class="open-tasks-lists">
+                                            <li>
+                                                <label class="checkContainer">
+                                                    <span class="taskNumber">Projectopia Task 01</span>
+                                                    <input type="checkbox" checked="checked">
+                                                    <span class="checkMark"></span>
+                                                    <span class="assign">Assign to Mark</span>
+                                                </label>
+                                                <div class="updateBtnWrapper">
+                                                    <button class="upBtn btn-edit">
+                                                        <span class="ni ni-edit"></span>
+                                                    </button>
+                                                    <button class="upBtn deleteBtn btn-delete">
+                                                        <span class="ni ni-trash"></span>
+                                                    </button>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <label class="checkContainer">
+                                                    <span class="taskNumber">Projectopia Task 02</span>
+                                                    <input type="checkbox" checked="checked">
+                                                    <span class="checkMark"></span>
+                                                    <span class="assign">Assign to Mark</span>
+                                                </label>
+                                                <div class="updateBtnWrapper">
+                                                    <button class="upBtn btn-edit">
+                                                        <span class="ni ni-edit"></span>
+                                                    </button>
+                                                    <button class="upBtn deleteBtn btn-delete">
+                                                        <span class="ni ni-trash"></span>
+                                                    </button>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header d-block d-md-flex ">
+                                <div class="card-header-info d-flex align-items-center">
+                                    <img src="assets/img/taskIcon.png" alt="" class="img-fluid mr-2" />
+                                    <h5 class="mb-0">Pending Quotes / Estimates</h5>
+                                </div>
+                                <div class="card-header-btn mt-2 mt-md-0">
+                                    <a href="#" class="piaBtn">Add Quote</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table id="pendingQuotes" class="piaTableData table table-bordered w-100">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Title</th>
+                                                <th>Client</th>
+                                                <th>Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Projectopia Task 01</td>
+                                                <td>Ad-Hoc Task</td>
+                                                <td>
+                                                    <p class="status notSent">New/ Not Sent</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>02</td>
+                                                <td>Projectopia Task 02</td>
+                                                <td>Ad-Hoc Task</td>
+                                                <td>
+                                                    <p class="status clientApproval">
+                                                        Awating Client Approval
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>03</td>
+                                                <td>Projectopia Task 03</td>
+                                                <td>Ad-Hoc Task</td>
+                                                <td>
+                                                    <p class="status approved">
+                                                        Approved
+                                                    </p>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>04</td>
+                                                <td>Projectopia Task 04</td>
+                                                <td>Ad-Hoc Task</td>
+                                                <td>
+                                                    <p class="status notSent">
+                                                        New/ Not Sent
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>05</td>
+                                                <td>Projectopia Task 05</td>
+                                                <td>Ad-Hoc Task</td>
+                                                <td>
+                                                    <p class="status clientApproval">
+                                                        Awating Client Approval
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header d-block d-md-flex ">
+                                <div class="card-header-info d-flex align-items-center">
+                                    <img src="assets/img/taskIcon.png" alt="" class="img-fluid mr-2" />
+                                    <h5 class="mb-0">My Open Support</h5>
+                                </div>
+                                <div class="card-header-btn mt-2 mt-md-0">
+                                    <a href="#" class="piaBtn">Add Ticket</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table id="openTickets" class="piaTableData table  table-bordered"
+                                        style="width:100%">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th style="width: 64px;">Client</th>
+                                                <th>Ticket Title</th>
+                                                <th>Assigned to</th>
+                                                <th>Priority</th>
+                                                <th>Last Update</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>Ad-Hoc Task</td>
+                                                <td>Missing Module</td>
+                                                <td>
+                                                    <a href="mailto:john@expresstech.dev"></a>
+                                                </td>
+                                                <td>
+                                                    <p class="status normal">Normal</p>
+                                                </td>
+                                                <td>Sep 10, 2020</td>
+                                            </tr>
+                                            <tr>
+                                                <td>03</td>
+                                                <td>Ad-Hoc Task</td>
+                                                <td>Ad-Hoc Task</td>
+                                                <td>
+                                                    <a href="mailto:john@expresstech.dev"></a>
+                                                </td>
+                                                <td>
+                                                    <p class="status immediate">
+                                                        Immediate
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    Sep 10, 2020
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>04</td>
+                                                <td>Projectopia Task 04</td>
+                                                <td>Ad-Hoc Task</td>
+                                                <td>
+                                                    <a href="mailto:john@expresstech.dev"></a>
+                                                </td>
+                                                <td>
+                                                    <p class="status normal">
+                                                        Normal
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    Sep 10, 2020
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header d-block d-md-flex ">
+                                <div class="card-header-info d-flex align-items-center">
+                                    <img src="assets/img/taskIcon.png" alt="" class="img-fluid mr-2" />
+                                    <h5 class="mb-0">Outstanding Invoices</h5>
+                                </div>
+                                <div class="card-header-btn mt-2 mt-md-0">
+                                    <a href="#" class="piaBtn">Add Invoice</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table id="outstandingInvoices" class="piaTableData table  table-bordered"
+                                        style="width:100%">
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Due</th>
+                                                <th>Status</th>
+                                                <th>Total</th>
+                                                <th>Outstanding</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>02548</td>
+                                                <td>Sep 10, 2020</td>
+                                                <td>
+                                                    <p class="status notSent">Overdue</p>
+                                                </td>
+                                                <td>$5878.25</td>
+                                                <td>$5878.25</td>
+                                            </tr>
+                                            <tr>
+                                                <td>02548</td>
+                                                <td>Sep 10, 2020</td>
+                                                <td>
+                                                    <p class="status clientApproval">
+                                                        Overdue
+                                                    </p>
+                                                </td>
+                                                <td>$8789.54</td>
+                                                <td>$8789.54</td>
+                                            </tr>
+                                            <tr>
+                                                <td>02548</td>
+                                                <td>Sep 10, 2020</td>
+                                                <td>
+                                                    <p class="status approved">
+                                                        Sent
+                                                    </p>
+                                                </td>
+                                                <td>325.21`</td>
+                                                <td>$325.21</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-xl-6">
+                    <figure id="dashboardWrapperPanel-right">
+                        <div class="projectActivities">
+                            <div class="card">
+                                <div class="card-header d-block d-md-flex ">
+                                    <div class="card-header-info d-flex align-items-center">
+                                        <img src="assets/img/taskIcon.png" alt="" class="img-fluid mr-2" />
+                                        <h5 class="mb-0">Projects</h5>
+                                    </div>
+                                    <div class="card-header-btn mt-2 mt-md-0">
+                                        <a href="#" class="piaBtn">Add Project</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <tr>
+                                                <td>
+                                                    <div class="singleInfo">
+                                                        <div class="title">
+                                                            <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        </div>
+                                                        <div class="singleInfoDateline">
+                                                            <p>Deadline<span>Sep 10, 2020</span></p>
+                                                            <p>Open Task<span>2</span></p>
+                                                            <span class="singleProgress">In Progress</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="circleProgressBar">
+                                                        <div id="progress1-circle" data-percent="40"
+                                                            class="small float-right">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="completedProject">
+                                                        <p>Complete</p>
+                                                        <span>40%</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="singleInfo">
+                                                        <div class="title">
+                                                            <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        </div>
+                                                        <div class="singleInfoDateline">
+                                                            <p>Deadline<span>Sep 10, 2020</span></p>
+                                                            <p>Open Task<span>2</span></p>
+                                                            <span class="singleProgress">In Progress</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="circleProgressBar">
+                                                        <div id="progress2-circle" data-percent="60"
+                                                            class="small float-right">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="completedProject">
+                                                        <p>Complete</p>
+                                                        <span>60%</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="singleInfo">
+                                                        <div class="title">
+                                                            <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        </div>
+                                                        <div class="singleInfoDateline">
+                                                            <p>Deadline<span>Sep 10, 2020</span></p>
+                                                            <p>Open Task<span>2</span></p>
+                                                            <span class="singleProgress">In Progress</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="circleProgressBar">
+                                                        <div id="progress3-circle" data-percent="80"
+                                                            class="small float-right">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="completedProject">
+                                                        <p>Complete</p>
+                                                        <span>80%</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="singleInfo">
+                                                        <div class="title">
+                                                            <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        </div>
+                                                        <div class="singleInfoDateline">
+                                                            <p>Deadline<span>Sep 10, 2020</span></p>
+                                                            <p>Open Task<span>2</span></p>
+                                                            <span class="singleProgress">In Progress</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="circleProgressBar">
+                                                        <div id="progress4-circle" data-percent="30"
+                                                            class="small float-right">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="completedProject">
+                                                        <p>Complete</p>
+                                                        <span>30%</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="singleInfo">
+                                                        <div class="title">
+                                                            <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        </div>
+                                                        <div class="singleInfoDateline">
+                                                            <p>Deadline<span>Sep 10, 2020</span></p>
+                                                            <p>Open Task<span>2</span></p>
+                                                            <span class="singleProgress contractNotSent">Contract Not
+                                                                Sent</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="circleProgressBar">
+                                                        <div id="progress5-circle" data-percent="50"
+                                                            class="small float-right">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="completedProject">
+                                                        <p>Complete</p>
+                                                        <span>50%</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="singleInfo">
+                                                        <div class="title">
+                                                            <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        </div>
+                                                        <div class="singleInfoDateline">
+                                                            <p>Deadline<span>Sep 10, 2020</span></p>
+                                                            <p>Open Task<span>2</span></p>
+                                                            <span class="singleProgress">In Progress</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="circleProgressBar">
+                                                        <div id="progress6-circle" data-percent="50"
+                                                            class="small float-right">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="completedProject">
+                                                        <p>Complete</p>
+                                                        <span>50%</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="singleInfo">
+                                                        <div class="title">
+                                                            <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        </div>
+                                                        <div class="singleInfoDateline">
+                                                            <p>Deadline<span>Sep 10, 2020</span></p>
+                                                            <p>Open Task<span>2</span></p>
+                                                            <span class="singleProgress">In Progress</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="circleProgressBar">
+                                                        <div id="progress7-circle" data-percent="20"
+                                                            class="small float-right">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="completedProject">
+                                                        <p>Complete</p>
+                                                        <span>20%</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="singleInfo">
+                                                        <div class="title">
+                                                            <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        </div>
+                                                        <div class="singleInfoDateline">
+                                                            <p>Deadline<span>Sep 10, 2020</span></p>
+                                                            <p>Open Task<span>2</span></p>
+                                                            <span class="singleProgress">In Progress</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="circleProgressBar">
+                                                        <div id="progress8-circle" data-percent="55"
+                                                            class="small float-right">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="completedProject">
+                                                        <p>Complete</p>
+                                                        <span>55%</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="singleInfo">
+                                                        <div class="title">
+                                                            <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        </div>
+                                                        <div class="singleInfoDateline">
+                                                            <p>Deadline<span>Sep 10, 2020</span></p>
+                                                            <p>Open Task<span>2</span></p>
+                                                            <span class="singleProgress contractSent">Contract
+                                                                Sent</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="circleProgressBar">
+                                                        <div id="progress10-circle" data-percent="20"
+                                                            class="small float-right">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="completedProject">
+                                                        <p>Complete</p>
+                                                        <span>20%</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectActivities ProjectUpdatesWrapper">
+                            <div class="card">
+                                <div class="card-header d-block d-md-flex ">
+                                    <div class="card-header-info d-flex align-items-center">
+                                        <img src="assets/img/taskIcon.png" alt="" class="img-fluid mr-2" />
+                                        <h5 class="mb-0">Projects Updates</h5>
+                                    </div>
+                                    <div class="dropdownInner padding-ls-medium mt-2 mt-md-0" data-prev-content="Show">
+                                        <select class="selectDropdown-init form-control">
+                                            <option value="1">A Last 7 Days</option>
+                                            <option value="1">A Last 15 Days</option>
+                                            <option value="1">A Last 30 Days</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="card-body dailyUpdate">
+                                    <div class="dailyUpdateInner">
+                                        <h3 class="dailyUpdateTitle">Today</h3>
+                                        <ul>
+                                            <li>
+                                                <div class="singleUpdate">
+                                                    <div class="upImg">
+                                                        <img src="assets/img/personimg.png" alt="" class="img-fluid" />
+                                                    </div>
+                                                    <div class="singleUpdateInfo">
+                                                        <span class="singleUpdateInfoName">Mark Jakson</span>
+                                                        <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        <p>Team Member Added: <span>etadmin</span></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="singleUpdate">
+                                                    <div class="upImg">
+                                                        <img src="assets/img/personimg.png" alt="" class="img-fluid" />
+                                                    </div>
+                                                    <div class="singleUpdateInfo">
+                                                        <span class="singleUpdateInfoName">Mark Jakson</span>
+                                                        <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        <p>Team Member Added: <span>etadmin</span></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="singleUpdate">
+                                                    <div class="upImg">
+                                                        <img src="assets/img/personimg.png" alt="" class="img-fluid" />
+                                                    </div>
+                                                    <div class="singleUpdateInfo">
+                                                        <span class="singleUpdateInfoName">Mark Jakson</span>
+                                                        <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        <p>Team Member Added: <span>etadmin</span></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="dailyUpdateInner">
+                                        <h3 class="dailyUpdateTitle">Yesterday</h3>
+                                        <ul>
+                                            <li>
+                                                <div class="singleUpdate">
+                                                    <div class="upImg">
+                                                        <img src="assets/img/personimg.png" alt="" class="img-fluid" />
+                                                    </div>
+                                                    <div class="singleUpdateInfo">
+                                                        <span class="singleUpdateInfoName">Mark Jakson</span>
+                                                        <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        <p>Team Member Added: <span>etadmin</span></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="singleUpdate">
+                                                    <div class="upImg">
+                                                        <img src="assets/img/personimg.png" alt="" class="img-fluid" />
+                                                    </div>
+                                                    <div class="singleUpdateInfo">
+                                                        <span class="singleUpdateInfoName">Mark Jakson</span>
+                                                        <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        <p>Team Member Added: <span>etadmin</span></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="singleUpdate">
+                                                    <div class="upImg">
+                                                        <img src="assets/img/personimg.png" alt="" class="img-fluid" />
+                                                    </div>
+                                                    <div class="singleUpdateInfo">
+                                                        <span class="singleUpdateInfoName">Mark Jakson</span>
+                                                        <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        <p>Team Member Added: <span>etadmin</span></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="dailyUpdateInner">
+                                        <h3 class="dailyUpdateTitle">Sept 21 2020</h3>
+                                        <ul>
+                                            <li>
+                                                <div class="singleUpdate">
+                                                    <div class="upImg">
+                                                        <img src="assets/img/personimg.png" alt="" class="img-fluid" />
+                                                    </div>
+                                                    <div class="singleUpdateInfo">
+                                                        <span class="singleUpdateInfoName">Mark Jakson</span>
+                                                        <h4>Angry Birds Limited - Project: Order 257</h4>
+                                                        <p>Team Member Added: <span>etadmin</span></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="projectActivities ProjectUpdatesWrapper activeClientWrapper">
+                                <div class="card">
+                                    <div class="card-header d-block d-md-flex">
+                                        <div class="card-header-info d-flex align-items-center">
+                                            <img src="assets/img/taskIcon.png" alt="" class="img-fluid mr-2" />
+                                            <h5 class="mb-0">Who's Online</h5>
+                                        </div>
+                                        <div class="dropdownInner padding-ls-medium mt-2 mt-md-0"
+                                            data-prev-content="Show">
+                                            <select class="selectDropdown-init form-control">
+                                                <option value="1">A Last 7 Days</option>
+                                                <option value="1">A Last 15 Days</option>
+                                                <option value="1">A Last 30 Days</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="card-body activeClientInfo">
+                                        <div class="activePersonTitle">
+                                            <h3>Clients</h3>
+                                        </div>
+                                        <div class="activeCard">
+                                            <div class="activeInfo">
+                                                <div class="activeImg">
+                                                    <img src="assets/img/activeone.png" alt="" class="img-fluid" />
+                                                    <span class="chatOn"></span>
+                                                </div>
+                                                <div class="activeName">
+                                                    <h3>John Smith</h3>
+                                                </div>
+                                            </div>
+                                            <div class="activeInfo">
+                                                <div class="activeImg">
+                                                    <img src="assets/img/activetwo.png" alt="" class="img-fluid" />
+                                                    <span class="chatOn"></span>
+                                                </div>
+                                                <div class="activeName">
+                                                    <h3>John Smith</h3>
+                                                </div>
+                                            </div>
+                                            <div class="activeInfo">
+                                                <div class="activeImg">
+                                                    <img src="assets/img/activeone.png" alt="" class="img-fluid" />
+                                                    <span class="chatOn chatOff"></span>
+                                                </div>
+                                                <div class="activeName">
+                                                    <h3>John Smith</h3>
+                                                </div>
+                                            </div>
+                                            <div class="activeInfo">
+                                                <div class="activeImg">
+                                                    <img src="assets/img/activeone.png" alt="" class="img-fluid" />
+                                                    <span class="chatOn"></span>
+                                                </div>
+                                                <div class="activeName">
+                                                    <h3>John Smith</h3>
+                                                </div>
+                                            </div>
+                                            <div class="activeInfo">
+                                                <div class="activeImg">
+                                                    <img src="assets/img/activeone.png" alt="" class="img-fluid" />
+                                                    <span class="chatOn"></span>
+                                                </div>
+                                                <div class="activeName">
+                                                    <h3>John Smith</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="activePersonTitle">
+                                            <h3>Team Member</h3>
+                                        </div>
+                                        <div class="activeCard">
+                                            <div class="activeInfo">
+                                                <div class="activeImg">
+                                                    <img src="assets/img/activeone.png" alt="" class="img-fluid" />
+                                                    <span class="chatOn"></span>
+                                                </div>
+                                                <div class="activeName">
+                                                    <h3>John Smith</h3>
+                                                </div>
+                                            </div>
+                                            <div class="activeInfo">
+                                                <div class="activeImg">
+                                                    <img src="assets/img/activeone.png" alt="" class="img-fluid" />
+                                                    <span class="chatOn"></span>
+                                                </div>
+                                                <div class="activeName">
+                                                    <h3>John Smith</h3>
+                                                </div>
+                                            </div>
+                                            <div class="activeInfo">
+                                                <div class="activeImg">
+                                                    <img src="assets/img/activeone.png" alt="" class="img-fluid" />
+                                                    <span class="chatOn chatOff"></span>
+                                                </div>
+                                                <div class="activeName">
+                                                    <h3>John Smith</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Markup for dashboardWrapper -->
+
+
+
+
+
+    <!-- Main Coding End -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap4.min.js"></script>
+    <script src="assets/js/percircle.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script src="assets/js/script.chart.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+<!--[if gte IE 9] <style type="text/css"> .gradient {filter: none;}</style><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Required meta tags for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Favicon and touch icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <meta name="misapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="R" />
+    <meta property="fb:admins" content="Facebook numeric ID" />
+    <!-- gmail verification -->
+    <meta name="google-site-verification" content="" />
+    <!-- Website title -->
+    <title>Custom Field</title>
+    <link rel="stylesheet" href="assets/css/fonts-import.css" />
+    <link rel="stylesheet" href="assets/css/nioicon.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" href="assets/css/percircle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- jQuery (necessary for jQuery plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <!-- Main Coding Start Here -->
+
+
+
+    <!-- Markup for header -->
+    <header class="header">
+        <div class="container-fluid">
+            <nav class="navbar d-flex flex-row flex-nowrap justify-content-between align-items-center">
+                <button type="button" class="btnNavToggle btn border btn-sm  mr-2 d-block d-xl-none">
+                    <i class="ni ni-menu-left text-light"></i>
+                </button>
+                <a class="navbar-brand my-0 py-0" href="index.html">
+                    <img src="assets/img/projectopialogo.svg" class="img-fluid" />
+                </a>
+                <div class="navbar-collapse d-flex flex-row">
+                    <ul class="navbar-nav responsiveMenu mr-auto d-block d-xl-flex flex-row">
+                        <li class="nav-item mb-3 d-block d-xl-none">
+                            <button type="button" class="btnNavToggle border btn-sm btn mr-2">
+                                <i class="ni ni-cross text-light"></i>
+                            </button>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Dashboard<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Work</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Leads</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clients</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quotes</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Invoices
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teams</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle ni ni-downward-ios" href="#" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul
+                        class="nav navbar-nav navbar-right rightNavbar flex-nowrap flex-row ml-auto justify-content-end">
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/massageicon.svg" alt="" class="img-fluid">
+                                <span class="count">4</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/notification.png" alt="" class="img-fluid">
+                                <span class="count">4</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/settingicon.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="headerProfile">
+                                <span>Rajat</span>
+                                <img src="assets/img/headerprofile.png" alt="" class="userImg img-fluid" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--/ Markup for header -->
+
+
+    <!-- Markup for page-title -->
+    <section class="page-title">
+        <div class="container-fluid">
+            <div class="piaDashboardTitle">
+                <div class="dTitle d-flex align-items-center">
+                    <h1 class="mb-0">Dashboard </h1>
+                    <span>/</span>
+                    <a href="#">Custom Field</a>
+                </div>
+                <div class="backBtn">
+                    <a href="#" class="backBtn"><span class="ni ni-arrow-long-left"></span>Back to Wordpress Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ Markup for page-title -->
+
+
+
+
+    <!-- Setting Page Wrapper and tab screen -->
+    <div class="container-fluid">
+        <div class="settingPageWrapper">
+            <div class="card-header-info mb-0 pb-4">
+                <h5 class="mb-0">Custom Field</h5>
+            </div>
+            <div class="custom-field-form pt-4">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="form-group input-group">
+                            <label for="#">Currently Managing</label>
+                            <select class="form-control input customSelect">
+                                <option>Support Ticket 1</option>
+                                <option>Support Ticket 2</option>
+                                <option>Support Ticket 3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2" style="position: relative;">
+                    <div class="col-xl-8">
+                        <div class="droppable-areas-field d-none">
+                            <div class="form-group" id="form-check">
+                                <div class="row align-items-center">
+                                    <div class="col-xl-6">
+                                        <div class="form-check px-0">
+                                            <label class="checkContainer">
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkMark"></span>
+                                                Check me out
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <button class="btn btn-danger btn-sm remove-this">
+                                            <span class="ni ni-cross-sm"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="form-date">
+                                <div class="row align-items-center">
+                                    <div class="col-xl-6">
+                                        <div class="input-group">
+                                            <input type="date" class="form-control input" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <button class="btn btn-danger btn-sm remove-this">
+                                            <span class="ni ni-cross-sm"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="form-number">
+                                <div class="row align-items-center">
+                                    <div class="col-xl-6">
+                                        <div class="input-group">
+                                            <input type="number" class="form-control input" value="1" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <button class="btn btn-danger btn-sm remove-this">
+                                            <span class="ni ni-cross-sm"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="form-radio">
+                                <div class="row align-items-center">
+                                    <div class="col-xl-6">
+                                        <div class="form-check px-0">
+                                            <label class="checkContainer roundedCheck">
+                                                <input type="checkbox">
+                                                <span class="checkMark"></span>
+                                                Radio Group
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <button class="btn btn-danger btn-sm remove-this">
+                                            <span class="ni ni-cross-sm"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="form-select">
+                                <div class="row align-items-center">
+                                    <div class="col-xl-6">
+                                        <div class="input-group">
+                                            <select class="form-control input customSelect">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <button class="btn btn-danger btn-sm remove-this">
+                                            <span class="ni ni-cross-sm"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="form-text">
+                                <div class="row align-items-center">
+                                    <div class="col-xl-6">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control input" placeholder="Text Field" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <button class="btn btn-danger btn-sm remove-this">
+                                            <span class="ni ni-cross-sm"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="form-textarea">
+                                <div class="row align-items-center">
+                                    <div class="col-xl-6">
+                                        <div class="input-group">
+                                            <textarea class="form-control w-100 input" rows="2"
+                                                placeholder="Textarea"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <button class="btn btn-danger btn-sm remove-this">
+                                            <span class="ni ni-cross-sm"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <aside id="droppable-area" class="is-placeholder px-4 py-4"
+                            data-placeholder="Darg a field from the right to this area">
+
+                        </aside>
+                    </div>
+                    <div class="col-xl-4">
+                        <aside id="dragable-area" class="py-4 px-4" style="position: relative;">
+                            <ul class="draggable-field-list" style="position: relative;">
+                                <li class="draggable-item d-flex align-items-center" id="checkbox-group">
+                                    <img src="assets/img/checkbox-group-with-bg.svg" alt="" class="img-fluid mr-2" />
+                                    Checkbox Group
+                                </li>
+                                <li class="draggable-item d-flex align-items-center" id="date-field">
+                                    <img src="assets/img/calendar-with-bg.svg" alt="" class="img-fluid mr-2" />
+                                    Date Field
+                                </li>
+                                <li class="draggable-item d-flex align-items-center" id="number">
+                                    <img src="assets/img/hashtag-with-bg.svg" alt="" class="img-fluid mr-2" />
+                                    Number
+                                </li>
+                                <li class="draggable-item d-flex align-items-center" id="radio-group">
+                                    <img src="assets/img/radio-with-bg.svg" alt="" class="img-fluid mr-2" />
+                                    Radio Group
+                                </li>
+                                <li class="draggable-item d-flex align-items-center" id="select-group">
+                                    <img src="assets/img/checkbox-circle-with-bg.svg" alt="" class="img-fluid mr-2" />
+                                    Select
+                                </li>
+                                <li class="draggable-item d-flex align-items-center" id="text-field">
+                                    <img src="assets/img/text-field-with-bg.svg" alt="" class="img-fluid mr-2" />
+                                    Text Field
+                                </li>
+                                <li class="draggable-item d-flex align-items-center" id="textarea">
+                                    <img src="assets/img/textarea-with-bg.svg" alt="" class="img-fluid mr-2" />
+                                    Text Area
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End Wrapper -->
+    </div><!-- End Container -->
+
+
+
+
+    <!-- Main Coding End -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap4.min.js"></script>
+    <script src="assets/js/percircle.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script src="assets/js/tinymce.min.js"></script>
+    <script src="assets/js/script.chart.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

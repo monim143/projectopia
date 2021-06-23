@@ -1,0 +1,900 @@
+/* css for productDetailsWrapper */
+.piaDashboardTitle {
+  margin-bottom: 30px; }
+
+.productDetailsWrapper .tabContentWrapper {
+  margin-top: 25px; }
+.productDetailsWrapper .tabMenuWrapper {
+  background-color: #e7eff0;
+  width: 100%;
+  min-height: 44px;
+  line-height: 44px;
+  border-radius: 6px; }
+  .productDetailsWrapper .tabMenuWrapper ul {
+    border: none; }
+    .productDetailsWrapper .tabMenuWrapper ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 0 20px; }
+      .productDetailsWrapper .tabMenuWrapper ul li:last-child {
+        margin-right: 0; }
+      .productDetailsWrapper .tabMenuWrapper ul li a {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 44px;
+        display: flex;
+        align-items: center;
+        color: #2d405a;
+        padding: 0;
+        border: none;
+        border-bottom: 3px solid transparent;
+        transition: 0.3s; }
+        .productDetailsWrapper .tabMenuWrapper ul li a:hover {
+          border-bottom: none;
+          border-bottom: 3px solid var(--mainColor);
+          color: var(--mainColor); }
+      .productDetailsWrapper .tabMenuWrapper ul li a.active {
+        background-color: transparent;
+        border-radius: 0;
+        padding: 0;
+        color: var(--mainColor);
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        border-bottom: 3px solid var(--mainColor); }
+.productDetailsWrapper .productDetailsTabWrapper {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 30px; }
+.productDetailsWrapper .tabContentInfo-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px; }
+  .productDetailsWrapper .tabContentInfo-title h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2d405a;
+    margin-bottom: 0; }
+.productDetailsWrapper .tabContentInfo-name h3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2d405a;
+  margin-bottom: 15px; }
+.productDetailsWrapper .tabContentInfo-name p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #56606d;
+  border: 1px solid #e7eff0;
+  min-height: 52px;
+  line-height: 52px;
+  border-radius: 6px;
+  padding: 0 25px;
+  margin-bottom: 30px; }
+
+.accordion-panel .card {
+  padding: 0;
+  margin: 0 0 10px;
+  border: 1px solid #e7eff0 !important;
+  border-radius: 6px;
+  text-align: left;
+  border-radius: 6px;
+  background-color: #f5f6fa; }
+  .accordion-panel .card:focus, .accordion-panel .card:hover {
+    outline: none !important;
+    box-shadow: none; }
+  .accordion-panel .card .collapse {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none; }
+    .accordion-panel .card .collapse:focus, .accordion-panel .card .collapse:hover {
+      border: none !important;
+      outline: none !important;
+      box-shadow: none; }
+  .accordion-panel .card .cardTitle {
+    border: none;
+    outline: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    position: relative; }
+    .accordion-panel .card .cardTitle button.accordionTitle::after {
+      font-family: "Nioicon" !important;
+      content: "\e9c5";
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+      font-size: 28px; }
+    .accordion-panel .card .cardTitle button.accordionTitle[aria-expanded="true"]::after {
+      transform: translateY(-50%) rotate(180deg); }
+    .accordion-panel .card .cardTitle:focus {
+      border: none !important;
+      outline: none !important;
+      box-shadow: none; }
+  .accordion-panel .card .accordionTitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2d405a;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    background-color: transparent;
+    min-height: 52px;
+    line-height: 52px;
+    border: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0 25px; }
+    .accordion-panel .card .accordionTitle:focus, .accordion-panel .card .accordionTitle:hover {
+      outline: none;
+      box-shadow: none;
+      text-decoration: none; }
+.accordion-panel .singleInfo {
+  padding: 0 25px; }
+  .accordion-panel .singleInfo .singleInfoBlock > ul > li > strong {
+    color: #56606d; }
+  .accordion-panel .singleInfo ul {
+    padding: 0;
+    margin: 0 0 20px; }
+    .accordion-panel .singleInfo ul li {
+      display: block;
+      padding: 0;
+      margin: 0 0 5px; }
+      .accordion-panel .singleInfo ul li:last-child {
+        margin-bottom: 0; }
+      .accordion-panel .singleInfo ul li a {
+        font-size: 14px;
+        line-height: 26px;
+        color: var(--mainColor); }
+        .accordion-panel .singleInfo ul li a:hover {
+          text-decoration: none; }
+  .accordion-panel .singleInfo h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #56606d; }
+
+/* css for productDetailsWrapper - END */
+/* common radio style for all */
+.checkWrapper {
+  display: flex; }
+  .checkWrapper .taskNumber {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2d405a;
+    margin-bottom: 5px; }
+  .checkWrapper .singleInfoDateline {
+    display: flex;
+    justify-content: space-between; }
+    .checkWrapper .singleInfoDateline p {
+      font-size: 12px;
+      line-height: 15px;
+      color: #99a6b9; }
+      .checkWrapper .singleInfoDateline p span {
+        margin-left: 5px; }
+    .checkWrapper .singleInfoDateline span {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      align-items: center;
+      color: #56606d; }
+    .checkWrapper .singleInfoDateline .singleProgress {
+      background: #ffe4b0;
+      border-radius: 12px;
+      color: #ff9900;
+      line-height: 20px;
+      padding: 0 15px;
+      height: 20px;
+      display: inline-block; }
+    .checkWrapper .singleInfoDateline .contractNotSent {
+      color: #f22020;
+      background-color: #f7dfdf; }
+    .checkWrapper .singleInfoDateline .contractSent {
+      color: #23acb4;
+      background-color: #d3f4ef; }
+    .checkWrapper .singleInfoDateline .openTaskNm {
+      font-weight: bold;
+      color: #00cd98; }
+
+table.piaTableData tbody tr .progress {
+  color: #ff9f10;
+  background-color: #fff1d2; }
+table.piaTableData tbody tr .contractSent {
+  color: #23acb4;
+  background-color: #d3f4ef; }
+
+/* common radio style for all -END */
+/* css for All Project */
+.allProjectMainWrapper {
+  position: relative; }
+  @media (max-width: 768px) {
+    .allProjectMainWrapper {
+      text-align: center; } }
+  .allProjectMainWrapper .exceptionalAction {
+    position: absolute;
+    top: 20px;
+    z-index: 10;
+    display: inline-block; }
+    @media (max-width: 1200px) {
+      .allProjectMainWrapper .exceptionalAction {
+        position: initial; } }
+    .allProjectMainWrapper .exceptionalAction.bulkAction {
+      left: 0;
+      right: initial; }
+      @media (max-width: 1200px) {
+        .allProjectMainWrapper .exceptionalAction.bulkAction {
+          margin-bottom: 10px; } }
+    .allProjectMainWrapper .exceptionalAction.bulkSettings {
+      right: 0;
+      left: initial; }
+      .allProjectMainWrapper .exceptionalAction.bulkSettings .btn {
+        position: relative;
+        background-color: transparent;
+        transition: all 0.3s;
+        border: 0; }
+        .allProjectMainWrapper .exceptionalAction.bulkSettings .btn > .badge {
+          border-radius: 100%;
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          top: 2px;
+          right: 0px; }
+    .allProjectMainWrapper .exceptionalAction .piaBtn {
+      height: 33px;
+      line-height: 28px; }
+  @media (min-width: 1200px) {
+    .allProjectMainWrapper #allProject_length {
+      margin-left: 400px; }
+    .allProjectMainWrapper #allProject_filter {
+      margin-right: 140px; } }
+
+table.allProjectData {
+  border-right-width: 1px !important;
+  border: none; }
+  table.allProjectData thead th {
+    font-size: 14px;
+    line-height: 24px;
+    color: #99a6b9 !important;
+    border-left: none;
+    border-right: none;
+    background-color: #fff !important; }
+  table.allProjectData thead th::before,
+  table.allProjectData thead th::after {
+    display: none !important; }
+  table.allProjectData td {
+    font-size: 14px;
+    line-height: 24px;
+    color: #99a6b9;
+    background-color: #fff !important;
+    border-left: none;
+    border-right: none; }
+  table.allProjectData tbody tr td {
+    margin-bottom: 0;
+    vertical-align: middle; }
+    table.allProjectData tbody tr td p {
+      margin-bottom: 0;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #56606d;
+      font-weight: 500;
+      white-space: nowrap; }
+    table.allProjectData tbody tr td a,
+    table.allProjectData tbody tr td time {
+      font-size: 13px;
+      line-height: 22px;
+      color: #99a6b9;
+      font-weight: 400; }
+    table.allProjectData tbody tr td span {
+      font-weight: 400;
+      color: #99a6b9; }
+  table.allProjectData .percircle {
+    margin: 0;
+    background-color: #e0e4ea; }
+    table.allProjectData .percircle > span {
+      color: #56606d;
+      font-size: 12px;
+      height: initial; }
+    table.allProjectData .percircle::after {
+      background-color: #ffffff; }
+    table.allProjectData .percircle .bar {
+      border-color: var(--mainColor) !important; }
+  table.allProjectData .percircle.small {
+    font-size: 56px; }
+  table.allProjectData .overDateline {
+    color: #eb5757; }
+  table.allProjectData .completedProject p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #99a6b9;
+    font-weight: 400; }
+  table.allProjectData .completedProject span {
+    font-size: 12px;
+    line-height: 15px;
+    color: #56606d;
+    font-weight: 700; }
+
+/* css for All Project - END */
+/* css for All projectManageInfo */
+.singTeamleInfo {
+  background-color: white;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e7eff0;
+  border-image: initial;
+  border-radius: 6px;
+  padding: 20px 10px; }
+
+.team-img {
+  margin-bottom: 10px; }
+  .team-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center; }
+
+.content h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(var(--initFontSize) + 2px);
+  line-height: calc(var(--initFontSize) + 10px);
+  color: #243750;
+  margin-bottom: 10px;
+  display: block; }
+.content a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--initFontSize);
+  line-height: calc(var(--initFontSize) + 10px);
+  color: #56606d;
+  display: block;
+  margin-bottom: 5px; }
+  .content a:hover {
+    text-decoration: none; }
+  .content a span {
+    color: #6576ff;
+    background-color: rgba(101, 118, 255, 0.1);
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px; }
+
+.projectManageInfo {
+  background-color: white;
+  margin-top: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e7eff0;
+  border-image: initial;
+  padding: 25px;
+  border-radius: 6px; }
+  .projectManageInfo .title {
+    margin-bottom: 20px; }
+  .projectManageInfo .clientSingleContent {
+    width: 35%; }
+    .projectManageInfo .clientSingleContent .content p {
+      margin-bottom: 5px; }
+    .projectManageInfo .clientSingleContent .content h4,
+    .projectManageInfo .clientSingleContent .content a {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #2d405a;
+      white-space: nowrap; }
+      .projectManageInfo .clientSingleContent .content h4:hover,
+      .projectManageInfo .clientSingleContent .content a:hover {
+        text-decoration: none; }
+    .projectManageInfo .clientSingleContent .InfoContentIcon {
+      margin-right: 15px; }
+      .projectManageInfo .clientSingleContent .InfoContentIcon .img {
+        max-width: 25px;
+        width: 100%; }
+    .projectManageInfo .clientSingleContent .content p {
+      margin-bottom: 0px; }
+
+/* css for All projectManageInfo - END */
+/* css for team-members */
+.member-grid {
+  border: 2px solid #e7eff0;
+  border-radius: 6px;
+  padding: 30px 10px;
+  transition: all 0.3s;
+  margin-bottom: 30px;
+  position: relative; }
+  .member-grid:hover {
+    border-color: var(--mainColor); }
+  .member-grid .member-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center; }
+  .member-grid .contact-list li {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center; }
+    .member-grid .contact-list li > a {
+      color: #222222;
+      text-decoration: none; }
+    .member-grid .contact-list li + li {
+      margin-top: 15px; }
+    .member-grid .contact-list li label.checkContainer {
+      padding-left: 25px;
+      font-weight: 400;
+      margin: 0; }
+      .member-grid .contact-list li label.checkContainer .taskNumber {
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        position: relative;
+        top: 1px; }
+  .member-grid .dropdown-edit {
+    position: absolute;
+    top: 20px;
+    right: 20px; }
+    .member-grid .dropdown-edit.dropBottomRight .dropdown-menu {
+      position: absolute;
+      transform: translate3d(0px, 38px, 0px);
+      top: 0px;
+      left: initial !important;
+      will-change: transform;
+      right: 0; }
+    .member-grid .dropdown-edit .btn:focus {
+      outline: none;
+      box-shadow: none !important; }
+
+/* css for team-members - END */
+/* css for projectFiles - #tab */
+#projectFiles .file-name {
+  color: var(--mainColor) !important; }
+
+/* css for projectFiles - #tab */
+/* css for projectUpdates - #tab */
+#projectUpdates .ProjectUpdatesWrapper .card {
+  background-color: #f5f6fa; }
+  #projectUpdates .ProjectUpdatesWrapper .card .dailyUpdate {
+    padding-top: 0 !important; }
+    #projectUpdates .ProjectUpdatesWrapper .card .dailyUpdate .dailyUpdateInner {
+      background-color: #fff; }
+      #projectUpdates .ProjectUpdatesWrapper .card .dailyUpdate .dailyUpdateInner .projectActivityDate {
+        color: #99a6b9;
+        font-size: 13px; }
+
+/* css for projectUpdates - #tab */
+/* css for projectFiles - #tab */
+.special-mark {
+  display: inline-block;
+  font-weight: 700;
+  color: #ff9f10; }
+
+#notes .notes-collapseBody {
+  font-size: 14px;
+  color: #56606d;
+  font-weight: 500; }
+#notes .notes-list {
+  list-style: none;
+  padding: 0; }
+  #notes .notes-list li {
+    line-height: calc(100% + 10px);
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px; }
+    #notes .notes-list li::before {
+      content: "\2022";
+      /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      color: var(--mainColor);
+      /* Change the color */
+      font-weight: 700;
+      /* If you want it to be bold */
+      display: inline-block;
+      /* Needed to add space between the bullet and the text */
+      width: 23px;
+      /* Also needed for space (tweak if needed) */
+      margin-left: 0;
+      /* Also needed for space (tweak if needed) */
+      font-size: 25px;
+      position: relative;
+      top: -2px; }
+
+/* css for projectFiles - #tab */
+/* css for project details sidebar */
+.sideBarWrapper-item {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 30px; }
+  .sideBarWrapper-item:last-child {
+    margin-bottom: 0; }
+  .sideBarWrapper-item .piaBtn {
+    width: 100%; }
+  .sideBarWrapper-item .accordionWrapper .btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2d405a;
+    border: none;
+    margin-bottom: 0; }
+    .sideBarWrapper-item .accordionWrapper .btn:focus, .sideBarWrapper-item .accordionWrapper .btn:hover {
+      outline: none;
+      border: none;
+      text-decoration: none;
+      box-shadow: none; }
+  .sideBarWrapper-item .checkWrapper {
+    background-color: #f0faed;
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px; }
+    .sideBarWrapper-item .checkWrapper .content h4 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #56606d; }
+    .sideBarWrapper-item .checkWrapper .content p {
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      color: #56606d; }
+      .sideBarWrapper-item .checkWrapper .content p a {
+        display: inline-block;
+        color: var(--mainColor); }
+    .sideBarWrapper-item .checkWrapper .content span {
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      color: #99a6b9; }
+    .sideBarWrapper-item .checkWrapper .checkMark {
+      border-radius: 50%;
+      border: 2px solid var(--mainSallowColor); }
+    .sideBarWrapper-item .checkWrapper .checkContainer {
+      top: -6px; }
+      .sideBarWrapper-item .checkWrapper .checkContainer input ~ .checkMark {
+        border: 2px solid var(--mainSallowColor); }
+      .sideBarWrapper-item .checkWrapper .checkContainer input:hover {
+        background-color: var(--mainSallowColor);
+        border: 2px solid var(--mainSallowColor); }
+    .sideBarWrapper-item .checkWrapper .checkContainer input:checked ~ .checkMark {
+      background-color: var(--mainSallowColor);
+      border: 2px solid var(--mainSallowColor); }
+  .sideBarWrapper-item .darkBg {
+    background-color: var(--whiteDark); }
+    .sideBarWrapper-item .darkBg .checkContainer {
+      top: -6px; }
+      .sideBarWrapper-item .darkBg .checkContainer input ~ .checkMark {
+        border: 2px solid #d0d5dd; }
+.sideBarWrapper .accordionWrapper .card-header .btn-link {
+  position: relative;
+  line-height: 35px; }
+  .sideBarWrapper .accordionWrapper .card-header .btn-link:after {
+    font-family: "Nioicon" !important;
+    content: "\e9c5";
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 28px; }
+.sideBarWrapper .accordionWrapper .card-header .btn-link [aria-expanded="true"]::after {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
+.sideBarWrapper .selected-color .inputPic {
+  border: none;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  margin: 0 10px 0 0; }
+  .sideBarWrapper .selected-color .inputPic:hover {
+    outline: none;
+    outline: none; }
+.sideBarWrapper .selected-color input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0; }
+.sideBarWrapper .selected-color input[type="color"]::-webkit-color-swatch {
+  border: none; }
+.sideBarWrapper .selected-color input[type="color"] {
+  -webkit-appearance: none;
+  border: none; }
+.sideBarWrapper .selected-color label {
+  font-weight: 500;
+  font-size: calc(var(--initFontSize) + 1px);
+  line-height: calc(var(--initFontSize) + 10px);
+  color: #56606d;
+  margin-bottom: 0; }
+.sideBarWrapper .selected-color .single-color {
+  width: 48%; }
+.sideBarWrapper .selected-color h5 {
+  font-weight: 500;
+  font-size: calc(var(--initFontSize) + 4px);
+  line-height: calc(var(--initFontSize) + 14px);
+  color: #2d405a; }
+
+/* css for project details sidebar - END */
+/* milestone template */
+.milestoneTemplates {
+  border-top: 1px solid #e7eff0;
+  padding-top: 25px; }
+  .milestoneTemplates #allProject_filter {
+    margin-right: 0; }
+  .milestoneTemplates .exceptionalAction {
+    top: 25px; }
+  .milestoneTemplates #allProject_length {
+    margin-left: 350px; }
+  .milestoneTemplates table.allProjectData {
+    margin-top: 30px; }
+    .milestoneTemplates table.allProjectData tbody tr td {
+      padding: 20px 15px; }
+      .milestoneTemplates table.allProjectData tbody tr td p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px; }
+      .milestoneTemplates table.allProjectData tbody tr td .progress {
+        font-size: 12px;
+        line-height: 20px;
+        color: #ff750b; }
+      .milestoneTemplates table.allProjectData tbody tr td .openTaskNumber {
+        color: #00cd98; }
+      .milestoneTemplates table.allProjectData tbody tr td .overdue {
+        color: #f22020;
+        background-color: #ffe5e5; }
+    .milestoneTemplates table.allProjectData thead tr th {
+      padding: 20px 15px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: #99a6b9; }
+      .milestoneTemplates table.allProjectData thead tr th .taskNumber {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #99a6b9; }
+  .milestoneTemplates div#milestoneTemplates_length {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .milestoneTemplates .checkWrapper .taskNumber {
+    font-size: 14px; }
+  .milestoneTemplates .custom-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-color: #e7eff0;
+    width: 100%;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 0 !important;
+    background-image: url(../img/data-table-selection.svg) !important;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0px) center;
+    background-size: 50px;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    height: 33px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #000000;
+    font-family: "Product Sans";
+    padding-right: 50px;
+    padding-left: 5px; }
+  .milestoneTemplates .dataTables_length label {
+    border: 1px solid #e7eff0;
+    padding: 0 10px;
+    margin-bottom: 0;
+    border-radius: 4px; }
+  .milestoneTemplates .dataTables_length {
+    margin-top: 0; }
+  .milestoneTemplates .dataTables_filter {
+    margin: 0; }
+
+/* milestoneTemplates */
+/* massage box style */
+.messagesContent {
+  background: #ffffff;
+  border: 1px solid #e7eff0;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 20px; }
+  .messagesContent .chatWrapper {
+    width: 25%; }
+  .messagesContent .massageDetailsWrap {
+    width: 75%; }
+    .messagesContent .massageDetailsWrap ul li {
+      margin-bottom: 30px; }
+      .messagesContent .massageDetailsWrap ul li:last-child {
+        margin-bottom: 0; }
+  .messagesContent .chattingList .chattingImg {
+    margin-right: 15px; }
+  .messagesContent .chattingList h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2d405a; }
+  .messagesContent .chattingList p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #99a6b9; }
+  .messagesContent ul li {
+    list-style: none; }
+
+.massageDetailsWrap ul {
+  background-color: #f5f6fa;
+  padding: 30px; }
+  .massageDetailsWrap ul li {
+    text-align: right; }
+    .massageDetailsWrap ul li:nth-child(even) .massageInfoBox p {
+      background-color: var(--mainColor);
+      color: #fff; }
+.massageDetailsWrap .massageInfoBox .textImg {
+  margin-right: 10px; }
+.massageDetailsWrap .massageInfoBox p {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 0px 20px 20px 20px;
+  display: inline-block;
+  text-align: left;
+  max-width: 205px;
+  width: 100%; }
+
+/* massage box style */
+/* ENd ProjectInvoices */
+#projectInvoices tbody td p.due {
+  color: #00bfe7;
+  background-color: #e1f3f8; }
+#projectInvoices tbody td p.sent {
+  color: #ff7a00;
+  background-color: #ffe4b0; }
+#projectInvoices tbody td p.active {
+  color: #1dc152;
+  background-color: #cafad1; }
+
+/* End ProjectInvoices */
+/* MileStone tab screen style */
+.mlAcrHeader .accordionTitle span {
+  color: var(--orangeColor);
+  margin-right: 5px; }
+.mlAcrHeader .accordionTitle .badge {
+  margin-left: 30px; }
+.mlAcrHeader .badgeWrapper {
+  width: 30%; }
+
+.mileStone-content-taskBar {
+  margin: 30px;
+  background-color: var(--grayDeepColor);
+  padding: 20px;
+  border-radius: 6px; }
+.mileStone-content-singleDeadline {
+  margin-right: 30px; }
+.mileStone-content-icon {
+  margin-right: 10px; }
+.mileStone-content-info h5 {
+  font-weight: 400;
+  font-size: calc(var(--initFontSize) + 2px);
+  line-height: calc(var(--initFontSize) + 12px);
+  color: #c4cefe; }
+.mileStone-content-info p {
+  font-weight: 500;
+  font-size: var(--initFontSize);
+  line-height: calc(var(--initFontSize) + 10px);
+  color: #ffffff; }
+.mileStone-content .add-mileStone .addMlBtn {
+  font-weight: 700;
+  font-size: var(--initFontSize);
+  line-height: calc(var(--initFontSize) + 10px);
+  color: var(--orangeColor);
+  margin-right: 30px;
+  position: relative; }
+  .mileStone-content .add-mileStone .addMlBtn:first-of-type:after {
+    content: "";
+    position: absolute;
+    right: -15px;
+    width: 1px;
+    height: 20px;
+    background-color: var(--graySallowColor);
+    top: -2px; }
+  .mileStone-content .add-mileStone .addMlBtn:last-of-type {
+    margin-right: 0; }
+  .mileStone-content .add-mileStone .addMlBtn:hover {
+    text-decoration: none; }
+.mileStone-content .addMilestone-wrapper {
+  margin: 0 30px; }
+  .mileStone-content .addMilestone-wrapper-headerRight {
+    width: 50%;
+    margin-right: 50px; }
+  .mileStone-content .addMilestone-wrapper .mlAcrHeader {
+    padding: 15px 0 10px 0; }
+    .mileStone-content .addMilestone-wrapper .mlAcrHeader .accordionTitle[aria-expanded="true"] {
+      background-color: #fff; }
+  .mileStone-content .addMilestone-wrapper .card {
+    background-color: #fff; }
+  .mileStone-content .addMilestone-wrapper .mileStone-addSchedule {
+    padding: 15px 30px 20px; }
+  .mileStone-content .addMilestone-wrapper .addSchedule {
+    margin-right: 30px; }
+    .mileStone-content .addMilestone-wrapper .addSchedule:last-of-type {
+      margin-right: 0; }
+    .mileStone-content .addMilestone-wrapper .addSchedule label {
+      display: block;
+      font-size: var(--initFontSize);
+      line-height: calc(var(--initFontSize) + 10px);
+      color: var(--graySallowColor); }
+    .mileStone-content .addMilestone-wrapper .addSchedule .input {
+      padding: 0 15px;
+      color: #2d405a;
+      font-size: var(--initFontSize);
+      line-height: calc(var(--initFontSize) + 20px);
+      min-height: calc(var(--initFontSize) + 20px);
+      background-color: #fff;
+      border: 1px solid #e7eff0; }
+  .mileStone-content .addMilestone-wrapper .addSchedule-description h4 {
+    font-style: normal;
+    font-size: calc(var(--initFontSize) + 2px);
+    line-height: calc(var(--initFontSize) + 12px);
+    color: var(--grayDeepColor); }
+  .mileStone-content .addMilestone-wrapper .addSchedule-description p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(var(--initFontSize) + 0px);
+    line-height: calc(var(--initFontSize) + 10px);
+    color: var(--grayColor); }
+  .mileStone-content .addMilestone-wrapper .addSchedule-description ul {
+    padding: 0;
+    margin: 0; }
+    .mileStone-content .addMilestone-wrapper .addSchedule-description ul li {
+      font-style: normal;
+      font-weight: normal;
+      font-size: calc(var(--initFontSize) + 0px);
+      line-height: calc(var(--initFontSize) + 10px);
+      color: var(--grayColor);
+      list-style: none; }
+      .mileStone-content .addMilestone-wrapper .addSchedule-description ul li span {
+        color: var(--mainColor); }
+
+/* MileStone tab screen style */
+
+/*# sourceMappingURL=projectDetails.css.map */
